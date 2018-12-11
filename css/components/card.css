@@ -1,0 +1,77 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+.card {
+width: 300px;
+height: 140px;
+padding: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 6px;
+margin: 20px 20px;
+flex-basis: 250px;
+flex-grow: 1;
+}
+.card img {
+  width: 100px;
+  border-radius: 8px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 15px;
+  font-size: 24px;
+  text-align: center;
+}
+#information {
+background-color:#032960;
+width:1000px;
+font-size: 13px;
+color:white;
+box-shadow: none;
+}
+.cards footer {
+background-color:#032960;
+}
+.card p{
+width:200px;
+}
+.list-inine li{
+display:inline;
+padding: 20px;
+text-decoration: none;
+}
+.list-inline i { 
+font-size:40px;
+color:white; 
+text-decoration: none;
+}
+#un {
+background-image:linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0)70%), url(../../images/news.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#deux {
+background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0)70%), url(../../images/contact.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+#john {
+padding: 30px;
+height: 0px;
+padding: 30px;
+}
+.card h3 {
+flex-grow: 1;
+padding-left: 20px;
+font-size:24px;
+color: white;
+text-align: center;
+font-weight: normal;
+}
